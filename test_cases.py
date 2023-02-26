@@ -1,12 +1,11 @@
-import pytest
+import Calculator
 
-@pytest.mark.one
-def test_method1():
-    x =5
-    y=10
-    assert x==y
-@pytest.mark.two
-def test_method2():
-    a=15
-    b=20
-    assert a+5 ==b
+def test_add():
+    assert Calculator.add(2,3) == 5
+
+def test_sub():
+    assert Calculator.sub(10,5) == 5
+
+def test_mult():
+    assert Calculator.mult(4,2) == 8
+ 
