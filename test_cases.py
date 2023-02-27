@@ -9,3 +9,5 @@ def test_sub():
 def test_mult():
     assert Calculator.mult(4,2) == 8
  
+def test_add():
+    assert Calculator.add(100,43) == 103
