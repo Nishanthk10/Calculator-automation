@@ -7,7 +7,7 @@ def sub(a,b):
 def mult(a,b):
     return a*b
 
-
+#Sample
 # while True:
 #     print("1.Addition 2.Substraction 3.Multiplication")
 #     choice = int(input("Enter your choice: "))
